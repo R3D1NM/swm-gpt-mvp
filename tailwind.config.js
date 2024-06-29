@@ -1,9 +1,25 @@
+<<<<<<< HEAD
 const { fontFamily } = require("tailwindcss/defaultTheme")
  
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
   content: ["src/**/*.{ts,tsx}", "components/**/*.{ts,tsx}"],
+=======
+import tailwindcssAnimate from "tailwindcss-animate";
+import  {fontFamily} from "tailwindcss/defaultTheme"
+/** @type {import('tailwindcss').Config} */
+
+export default{
+  darkMode: ["class"],
+  content: [
+    './pages/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+    './app/**/*.{ts,tsx}',
+    './src/**/*.{ts,tsx}',
+  ],
+  prefix: "",
+>>>>>>> 48b1866 ([set] initial set up with style library)
   theme: {
     container: {
       center: true,
@@ -78,5 +94,9 @@ module.exports = {
       },
     },
   },
+<<<<<<< HEAD
   plugins: [require("tailwindcss-animate")],
+=======
+  plugins: [tailwindcssAnimate],
+>>>>>>> 48b1866 ([set] initial set up with style library)
 }

@@ -1,8 +1,17 @@
+<<<<<<< HEAD
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
   
 @import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+=======
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;  
+
+>>>>>>> 48b1866 ([set] initial set up with style library)
 
 @font-face {
   font-family: 'Yangjin';
@@ -44,6 +53,17 @@
  
     --radius: 0.5rem;
   }
+<<<<<<< HEAD
+=======
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: Yangjin;
+  }
+>>>>>>> 48b1866 ([set] initial set up with style library)
  
   .dark {
     --background: 224 71% 4%;
@@ -78,6 +98,7 @@
     --radius: 0.5rem;
   }
 }
+<<<<<<< HEAD
  
 @layer base {
   * {
@@ -88,3 +109,6 @@
     font-family: Yangjin;
   }
 }
+=======
+
+>>>>>>> 48b1866 ([set] initial set up with style library)

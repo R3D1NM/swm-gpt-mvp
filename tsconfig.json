@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "compilerOptions": {
     "target": "es5",
     "lib": [
@@ -28,5 +29,15 @@
     "src",
     "**/*.ts",
     "**/*.tsx"
+=======
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+>>>>>>> 48b1866 ([set] initial set up with style library)
   ]
 }
