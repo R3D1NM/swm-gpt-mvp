@@ -1,6 +1,5 @@
-import { Product } from '@/types'
+import { Product } from '@/config/types'
 import Gift from '../images/giftbox.png'
-import { Button } from './ui/button'
 
 interface GiftCardProps {
   product: Product
